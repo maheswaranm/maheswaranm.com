@@ -5,7 +5,7 @@ theme = ""
 
 [params]
   name = "Maheswaran Moothiringode"
-  description = "Maker of Softwares"
+  description = "Maker of Software"
   copyright = "Maheswaran Moothiringode"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = "k"
