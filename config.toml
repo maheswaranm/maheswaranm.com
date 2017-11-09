@@ -16,11 +16,6 @@ theme = ""
   icon = "twitter"
   link = "https://twitter.com/maheswaranm"
 
-#[[params.social]]
-#  medium = "Dribbble"
-#  icon = "dribbble"
-#  link = "#"
-
 [[params.social]]
   medium = "Github"
   icon = "github"
@@ -30,12 +25,6 @@ theme = ""
     medium = "Linkedin"
     icon = "linkedin"
     link = "https://linkedin.com/in/maheswaranm/"
-
-  [[params.social]]
-    medium = "Facebook"
-    icon = "facebook"
-    link = "https://www.facebook.com/maheswaranmoothiringode"
-
 
 [[params.social]]
   medium = "Email"
