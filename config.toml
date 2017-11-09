@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Maheswaran Moothiringode"
 baseurl = "http://localhost:1313/"
-theme = "aerial"
+theme = ""
 
 [params]
   name = "Maheswaran Moothiringode"
