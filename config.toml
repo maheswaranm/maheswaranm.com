@@ -1,14 +1,12 @@
 languageCode = "en-us"
 title = "Maheswaran Moothiringode"
-baseurl = "http://localhost:1313/"
+baseurl = "http://maheswaranm.com/"
 theme = ""
 
 [params]
   name = "Maheswaran Moothiringode"
-  description = "Maker of Software"
+  description = "Maker  of  Software"
   copyright = "Maheswaran Moothiringode"
-  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = "k"
   favicon = "favicon.ico"
 
 [[params.social]]
@@ -21,10 +19,10 @@ theme = ""
   icon = "github"
   link = "https://github.com/maheswaranm/"
 
-  [[params.social]]
-    medium = "Linkedin"
-    icon = "linkedin"
-    link = "https://linkedin.com/in/maheswaranm/"
+[[params.social]]
+  medium = "Linkedin"
+  icon = "linkedin"
+  link = "https://linkedin.com/in/maheswaranm/"
 
 [[params.social]]
   medium = "Email"
@@ -32,12 +30,12 @@ theme = ""
   link = "mailto:talk@maheswaranm.com"
 
 
-  [[params.links]]
-    medium = "Blog"
-    icon = "pencil-square-o"
-    link = "https://blog.maheswaranm.com"
+[[params.links]]
+  medium = "Blog"
+  icon = "pencil-square-o"
+  link = "https://blog.maheswaranm.com"
 
-    [[params.links]]
-      medium = "Projects"
-      icon = "gears"
-      link = "https://projects.maheswaranm.com"
+[[params.links]]
+  medium = "Projects"
+  icon = "gears"
+  link = "https://projects.maheswaranm.com"
