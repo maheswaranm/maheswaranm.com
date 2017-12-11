@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("font-awesome/css/font-awesome.min.css");
+
+/*
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	body {
+		-webkit-text-size-adjust: none;
+	}
+
+	.description {								
+		letter-spacing: 1.5px;
+	}
+/* Basic */
+
+	body, input, select, textarea {
+		color: #fff;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 15pt;
+		font-weight: 300 !important;
+		letter-spacing: -0.025em;
+		line-height: 1.75em;
+	}
+
+	body {
+		background: #fff;
+		overflow: hidden;
+	}
+
+	a {
+		border-bottom: dotted 1px;
+		color: inherit;
+		outline: 0;
+		text-decoration: none;
+	}
+
+	a:hover {
+		border-color: transparent;
+	}
+
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		position: relative;
+	}
+
+	.icon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+
+	.icon > .label {
+		display: none;
+	}
+
+/* Wrapper */
+
+
+	#wrapper {
+		height: 100%;
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+/* BG */
+
+	#bg {
+		background: #348cb2;
+		background-repeat: repeat-x;
+		height: 100%;
+		left: 0;
+		opacity: 1;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+/* Main */
+
+	#main {
+		height: 100%;
+		left: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	#main:before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+	}
+
+/* Header */
+
+	#header {
+		cursor: default;
+		display: inline-block;
+		opacity: 1;
+		position: relative;
+		text-align: center;
+		top: -1em;
+		vertical-align: middle;
+		width: 90%;
+	}
+
+	#header h1 {
+		font-size: 4.35em;
+		font-weight: 900;
+		letter-spacing: -0.025em;
+		line-height: 1em;
+	}
+
+	#header p {
+		font-size: 1.25em;
+		margin: 0.75em 0 0.25em 0;
+		opacity: 0.85;
+	}
+
+	.social {
+		margin: 1.5em 0 0 0;
+	}
+
+	.social li {
+		display: inline-block;
+		height: 5.35em;
+		line-height: 5.885em;
+		opacity: 1;
+		position: relative;
+		top: 0;
+		width: 5.35em;
+	}
+
+	.social a {
+		-webkit-tap-highlight-color: transparent;
+		-webkit-touch-callout: none;
+		border: 0;
+		display: inline-block;
+	}
+
+	.social a:before {
+		border-radius: 100%;
+		border: solid 1px #fff;
+		display: block;
+		font-size: 1.75em;
+		height: 2.5em;
+		line-height: 2.5em;
+		position: relative;
+		text-align: center;
+		top: 0;
+		width: 2.5em;
+	}
+
+	.social a:hover {
+		font-size: 1.1em;
+	}
+
+	.social a:hover:before {
+		background-color: rgba(255, 255, 255, 0.175);
+		color: #fff;
+	}
+
+	.social a:active {
+		font-size: 0.95em;
+		background: none;
+	}
+
+	.social a:active:before {
+		background-color: rgba(255, 255, 255, 0.35);
+		color: #fff;
+	}
+
+	.links {
+		margin: 1.5em 0 0 0;
+	}
+
+	.links li {
+		display: inline-block;
+		height: 5em;
+		line-height: 5.885em;
+		opacity: 1;
+		position: relative;
+		top: 0;
+		width: 200px;
+	}
+
+	.links a {
+		-webkit-tap-highlight-color: transparent;
+		-webkit-touch-callout: none;
+		border: 0;
+		width:80%;
+		display: inline-block;
+	}
+
+	.links a {
+		border-radius: 25px;
+		border: solid 1px #fff;
+		display: block;
+		font-size: 1.5em;
+		height: 2.5em;
+		line-height: 2.5em;
+		position: relative;
+		padding-left: 25px;
+		text-align: left;
+		top: 0;
+	}
+
+	.links a:hover {
+		font-size: 1.55em;
+		background-color: rgba(255, 255, 255, 0.175);
+		color: #fff;
+	}
+
+	.links a:active {
+		font-size: 0.95em;
+		background: none;
+		background-color: rgba(255, 255, 255, 0.35);
+		color: #fff;
+	}
+
+	.linktext {
+		padding-left: 25px;
+		font-size: 15pt;
+	}
+
+
+/* Footer */
+
+#footer {
+	bottom: 0;
+	cursor: default;
+	height: 6em;
+	left: 0;
+	opacity: 1;
+	line-height: 8em;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+/* Wide */
+
+@media screen and (max-width: 1680px) {
+
+	/* Basic */
+
+	body, input, select, textarea {
+		font-size: 13pt;
+	}
+
+	/* BG */
+
+}
+
+/* Normal */
+
+@media screen and (max-width: 1280px) {
+
+	/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+}
+
+/* Mobile */
+
+@media screen and (max-width: 736px) {
+
+	/* Basic */
+
+	body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+	/* Header */
+
+	#header h1 {
+		font-size: 2.5em;
+	}
+
+	#header 
+		font-size: 1em;
+	}
+
+}
+
+/* Mobile (Portrait) */
+
+@media screen and (max-width: 480px) {
+	/* Header */
+
+	#header nav {
+		padding: 0 1em;
+	} 
+}
