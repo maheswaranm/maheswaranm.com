@@ -31,11 +31,11 @@ theme = ""
 
 
 [[params.links]]
-  medium = "Blog"
+  name = "Blog"
   icon = "pencil-square-o"
   link = "https://blog.maheswaranm.com"
 
 [[params.links]]
-  medium = "Projects"
+  name = "Projects"
   icon = "gears"
   link = "https://projects.maheswaranm.com"
