@@ -20,6 +20,11 @@ theme = ""
   link = "https://github.com/maheswaranm/"
 
 [[params.social]]
+  medium = "Telegram"
+  icon = "telegram"
+  link = "https://t.me/maheswaranm/"
+
+[[params.social]]
   medium = "Linkedin"
   icon = "linkedin"
   link = "https://linkedin.com/in/maheswaranm/"
